@@ -1,0 +1,22 @@
+Change Log
+
+
+- Replaced the default "orange" color with a blue color. To do this, I took a screenshot snippet of the orange portion, then opened it in paint, then inspected the color. This allowed me to view the RGB and hex values of the color. I then replaced all of those with my new, blue color.
+
+- Converted the social icons from circles to squares with rounded edges. To implement this, I changed the "border-radius" property from 100% to 25%. It was under .social-icons .social-icon.
+
+- Changed the social icon color to blue. To implement this, I changed the background-color to #3850BD.
+
+- Changed HR color to the same blue. Also increased the height from 1 to 4 px. Also changed the line style from solid to dashed. Also adjusted opacity from 25% to 50% (so that it is more distinct from the background).
+
+- Increased size of the "about" text from 1.15rem to 1.35 rem. This was under p.lead
+
+- Subheadings are no longer forced as capitals. To do this, I removed "text-transform: uppercase" from .subheading
+
+- Removed the text color changes of .text-primary, so that it would better match the rest of the text. To do this, I removed "color" from .text-primary
+
+- The font color of most text is now a bit blacker. This improves readability. To do this, I changed the color value of body to #46515b.
+
+- "Cat" in "Coolio Cat" is now colored the same as the left side nav bar (blueish). To do this, I added a new id to the Cat, "cat", and I added a new css rule: #cat{color:#3850BD;}
+
+- (not css). I changed the picture from some human to coolio cat. To do this, I moved coolio's image to the assets/img folder and changed the src of the img tag.
